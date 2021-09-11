@@ -34,7 +34,7 @@ or
 This command will leave 3 instances of Quarkus running in the foreground: 
 * JRE version listening on port 8081;
 * Native version listening on port 8082;
-* Distroless version listening on port 8083;
+* Distroless version listening on port 8083; 
 
 ## Delete all images
 
