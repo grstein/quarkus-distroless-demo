@@ -13,12 +13,14 @@ A Makefile is provided to `build`, see the difference (in `MB`) and `run` all 3 
 
 ## Building the applications
 
-Launch the Maven build on the checked out sources of this demo:
-
 > make build-jvm
+
 > make build-native
+
 > make build-distroless
+
 or
+
 > make build-all
 
 ## Show difference in MB
