@@ -12,7 +12,7 @@ COPY src /code/src
 RUN ./mvnw package
 
 ## Stage 2 : create the docker final image
-FROM openjdk:11
+FROM openjdk:18-ea-11-alpine
 COPY --from=build /code/target/quarkus-app /deployment
 WORKDIR /deployment
 CMD ["java", "-jar", "quarkus-run.jar"]

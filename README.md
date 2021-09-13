@@ -39,3 +39,11 @@ This command will leave 3 instances of Quarkus running in the foreground:
 ## Delete all images
 
 > make delete
+
+# Results
+
+| Image | Size (MB) | Started in (s) |
+| --- | :---: | :---: |
+| JVM | 341 | 0.887 |
+| Native | 185 | 0.017 |
+| Distroless | 62.1 | 0.017 |
