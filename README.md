@@ -47,6 +47,6 @@ This command will leave 3 instances of Quarkus running in the foreground:
 | Image | Size (MB) | Started in (s) |
 | --- | :---: | :---: |
 | JVM | 341 | 1.183 |
+| Distroless JVM (gcr.io) | 212 | 1.191 |
 | Native | 185 | 0.033 |
 | Distroless | 62.1 | 0.043 |
-| Distroless JVM (gcr.io) | 212 | 1.191 |
