@@ -1,4 +1,5 @@
-# Quarkus: JVM vs JVM Distroless vs Native vs Distroless Native
+# Quarkus 
+## JVM vs JVM Distroless vs Native vs Distroless Native
 
 This is a demonstration how to build and use a Quarkus application in `JVM`, `Distroless JVM`, `Native`, and `Distroless Native` modes.
 
