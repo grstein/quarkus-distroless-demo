@@ -7,6 +7,9 @@ build-native:
 build-distroless:
 	docker build -t getting-started-distroless:0.1 -f docker/distroless.Dockerfile .
 
+build-distroless-jvm:
+	docker build -t getting-started-distroless-jvm:0.1 -f docker/distroless-jvm.Dockerfile .
+
 show:
 	docker images | grep getting
 
@@ -20,8 +23,10 @@ delete:
 	docker rmi -f getting-started-jvm:0.1
 	docker rmi -f getting-started-native:0.1
 	docker rmi -f getting-started-distroless:0.1
+	docker rmi -f getting-started-distroless-jvm:0.1
 
 build-all:
 	docker build -t getting-started-jvm:0.1 -f docker/jvm.Dockerfile .
 	docker build -t getting-started-native:0.1 -f docker/native.Dockerfile .
 	docker build -t getting-started-distroless:0.1 -f docker/distroless.Dockerfile .
+	docker build -t getting-started-distroless-jvm:0.1 -f docker/distroless-jvm.Dockerfile .

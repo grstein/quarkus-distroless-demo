@@ -15,3 +15,8 @@ services:
     image: getting-started-distroless:0.1
     ports:
     - 8083:8080
+
+  distroless-jvm:
+    image: getting-started-distroless-jvm:0.1
+    ports:
+    - 8084:8080

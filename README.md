@@ -13,15 +13,17 @@ A Makefile is provided to `build`, see the difference (in `MB`) and `run` all 3 
 
 ## Building the applications
 
+> make build-all
+
+or
+
 > make build-jvm
 
 > make build-native
 
 > make build-distroless
 
-or
-
-> make build-all
+> make build-distroless-jvm
 
 ## Show difference in MB
 
@@ -44,6 +46,7 @@ This command will leave 3 instances of Quarkus running in the foreground:
 
 | Image | Size (MB) | Started in (s) |
 | --- | :---: | :---: |
-| JVM | 341 | 0.887 |
-| Native | 185 | 0.017 |
-| Distroless | 62.1 | 0.017 |
+| JVM | 341 | 1.183 |
+| Native | 185 | 0.033 |
+| Distroless | 62.1 | 0.043 |
+| Distroless JVM (gcr.io) | 212 | 1.191 |
