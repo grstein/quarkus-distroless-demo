@@ -1,10 +1,10 @@
-# Quarkus: JRE vs Native vs Distroless Native
+# Quarkus: JVM vs JVM Distroless vs Native vs Distroless Native
 
-This is a demonstration how to build and use a Quarkus application in `JRE`, `Native` and `Distroless Native` modes.
+This is a demonstration how to build and use a Quarkus application in `JRE`, `Distroless JVM`, `Native`, and `Distroless Native` modes.
 
 ## Getting started
 
-A Makefile is provided to `build`, see the difference (in `MB`) and `run` all 3 images. The application used is the official Quarkus [Getting Started](https://quarkus.io/guides/getting-started) and the docker files are Multi-Staged, so you just need docker to test it. 
+A Makefile is provided to `build`, see the difference (in `MB`) and `run` all 4 images. The application used is the official Quarkus [Getting Started](https://quarkus.io/guides/getting-started) and the docker files are Multi-Staged, so you just need docker to test it. 
 
 ## Requirements
 
@@ -33,10 +33,11 @@ or
 
 > make up
 
-This command will leave 3 instances of Quarkus running in the foreground: 
-* JRE version listening on port 8081;
+This command will leave 4 instances of Quarkus running in the foreground: 
+* JVM version listening on port 8081;
 * Native version listening on port 8082;
 * Distroless version listening on port 8083; 
+* Distroless JVM version listening on port 8084;
 
 ## Delete all images
 
