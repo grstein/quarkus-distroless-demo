@@ -45,7 +45,7 @@ This command will leave 3 instances of Quarkus running in the foreground:
 # Results
 
 | Versão | FROM Image | Size (MB) | Started in (s) |
-| --- | :---: | :---: | :---: |
+| --- | --- | :---: | :---: |
 | JVM | openjdk:18-ea-11-alpine | 341 | 1.183 |
 | JVM + Distroless | gcr.io/distroless/java:11 | 212 | 1.191 |
 | Native | registry.access.redhat.com/ubi8/ubi-minimal:8.4 | 185 | 0.033 |
