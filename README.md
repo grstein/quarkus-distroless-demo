@@ -39,6 +39,8 @@ This command will leave 4 instances of Quarkus running in the foreground:
 * Distroless version listening on port 8083; 
 * Distroless JVM version listening on port 8084;
 
+> make down
+
 ## Delete all images
 
 > make delete
